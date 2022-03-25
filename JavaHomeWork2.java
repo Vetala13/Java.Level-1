@@ -11,12 +11,12 @@ class JavaHomeWork2 {
         printPositiveOrNegative(13);
         System.out.println(numberIsNegative(-13));
         printString();
-}
-
-    static boolean checkRangeSum(int a, int b) {
-        return 10 <= a + b && a + b <= 20;
     }
     
+    static boolean checkRangeSum(int a, int b) {
+        return 10 <= a + b && a + b <= 20;
+        }
+        
     static void printPositiveOrNegative(int c) {
         System.out.println(c >= 0? "Positive" : "Negative");
     }
@@ -29,5 +29,5 @@ class JavaHomeWork2 {
         int i;
         for (i = 1; i <= 5; i++) 
             System.out.println("I love Java");
-        }
     }
+}
